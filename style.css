@@ -19,6 +19,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -408,6 +409,7 @@ ul.navbar.darkmode a.active {
 .checkbox label {
   font-size: 15px;
   color: #fdfdfd;
+  -webkit-user-select: none;
   user-select: none;
   cursor: pointer;
 }
